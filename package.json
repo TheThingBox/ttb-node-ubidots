@@ -1,0 +1,20 @@
+{
+  "name": "ttb-node-ubidots",
+  "version": "0.0.1",
+  "description": "This node allow the user to post data on Ubidots.",
+  "node-red": {
+    "nodes": {
+      "ubidots": "ubidots.js"
+    }
+  },
+  "dependencies": {
+    "request" : "2.85.0"
+  },
+  "keywords": [
+    "TheThingBox",
+    "node-red",
+    "ubidots"
+  ],
+  "author": "http://www.digitalairways.com/",
+  "license": "http://www.wtfpl.net"
+}

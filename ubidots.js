@@ -11,7 +11,7 @@ module.exports = function(RED) {
       body: JSON.stringify({
         value: value,
         timestamp: timestamp
-      },
+      })
     }, function(error, response, body) {
       console.log(body);
     });
